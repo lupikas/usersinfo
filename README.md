@@ -9,21 +9,21 @@ You can also download the entire repository as a zip file and unpack in on your 
 
 After cloning the application, you need to install it's dependencies.
 
-<b>$ cd usersinfo
+<b>$ cd usersinfo<br>
 $ composer install</b>
 
 Test
 ========
 
-Use "POSTMAN" or similar to see how app works!
+Use "POSTMAN" or similar to see how app works!<br>
 
-<b>Run application
-$ php artisan serve</b>
+<b>Run application<br>
+$ php artisan serve</b><br>
 
-In POSTMAN write:
-<b>127.0.0.1:8000/api/getusersdata?apikey=qwerty789</b>
-Test api key is qwerty789.
-Example data:
+In POSTMAN write:<br>
+<b>127.0.0.1:8000/api/getusersdata?apikey=qwerty789</b><br>
+Test api key is qwerty789.<br>
+Example data:<br>
 <b>
     {
 	"users": [
@@ -37,5 +37,5 @@ Example data:
 		}
 	]
 }
-</b>
+</b><br>
 Paste in <b>"raw"</b> field.
