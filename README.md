@@ -17,13 +17,13 @@ Test
 
 Use "POSTMAN" or similar to see how app works!<br>
 
-<b>Run application<br>
-$ php artisan serve</b><br>
+Run application<br>
+<b>$ php artisan serve</b><br>
 
 In POSTMAN write:<br>
 <b>127.0.0.1:8000/api/getusersdata?apikey=qwerty789</b><br>
 Test api key is qwerty789.<br>
-Example data:<br>
+Example data(paste in <b>"raw"</b> field):<br>
 <b>
     {
 	"users": [
@@ -37,5 +37,4 @@ Example data:<br>
 		}
 	]
 }
-</b><br>
-Paste in <b>"raw"</b> field.
+</b>
